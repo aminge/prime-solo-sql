@@ -28,8 +28,8 @@ LIMIT 3;
 SELECT * FROM syntax_practice
 WHERE account_balance > 100.00;
 -- 8. Add a new record.
-INSERT INTO syntax_practice (username, city, transactions_completed, transactions_attempted, account_balance, user_id)
-VALUES ('alex', 'minneapolis', 7, 11, 3700.00, 9);
+INSERT INTO syntax_practice (username, city, transactions_completed, transactions_attempted, account_balance)
+VALUES ('alex', 'minneapolis', 7, 11, 3700.00);
 -- 9. The bank is losing money in Miami and Phoenix and needs to unload low transaction 
 -- customers: Delete users that reside in miami OR phoenix and have completed fewer than 5 
 -- transactions.
